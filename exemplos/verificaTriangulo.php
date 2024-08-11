@@ -8,6 +8,7 @@ class Triangulo
     public $lado3;
     private $lados;
     private $ladosUnicos;
+
     public function __construct($lado1, $lado2, $lado3)
     {
         $this->lado1 = $lado1;
